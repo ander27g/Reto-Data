@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de datos</title>
+<style>
+
+    body{
+    background: rgb(255, 255, 255);
+    margin: 50px;
+    }
+
+    h1 {
+        font-size:30px;
+        color: black;
+    }
+
+    h2{
+        font-size: 20px;
+        color:rgb(59, 88, 143);
+    }
+
+    div{
+      margin: 30px;
+      margin-right: 180px;
+      }
+    
+    .w3-codespan{
+        color: red;
+        }
+
+    .w3-table-all {
+      border: 1px solid rgb(0, 0, 0);
+      width: 70%;
+      margin-left: 70px;
+      }
+
+      th, td {
+      
+      text-align: left;
+      vertical-align: top;
+      border: 1px solid rgb(0, 0, 0);
+       }
+
+</style>
+
+</head>
+<body>
+  <h1>Tipos de datos</h1>
+  <div>
+    <p> Un tipo de datos es la propiedad de un valor que determina su dominio (qué valores puede tomar), qué operaciones se le pueden aplicar y cómo es representado internamente por el computador.
+        Todos los valores que aparecen en un programa tienen un tipo.
+        A continuación vamos a revisar los tipos de daros que se usan en html, css y javascript.
+    </p>     
+  </div>
+  <h2>Datos Html</h2>
+<div>
+    <p>
+      En Html se escribe en forma de «etiquetas», rodeadas por corchetes angulares. En HTML también puede describir, hasta un cierto punto, la
+       apariencia de un documento, y puede incluir o hacer referencia a un tipo de programa llamado script, el cual puede afectar el 
+       comportamiento de navegadores web y otros procesadores de HTML.
+       HTML consta de varios elementos y sus atributos, en el siguiente link se pueden explorar todos los elementos y algunos de sus principales 
+       atributos: <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element">https://developer.mozilla.org/es/docs/Web/HTML/Element</a>
+
+       <div>
+           <table style="display: block;">
+          <tbody>
+            <tr>
+                <td style="border: none;"> <img style="width: 15px" src="imagenes/icono.png"> </td>
+                <td style="border: none;" >El elemento HTML <code class="w3-codespan">&lt;input&gt;</code> se usa para crear
+                 controles interactivos para formularios basados en la web con el fin de recibir datos del usuario. Hay disponible una amplia variedad de tipos de datos de entrada que continuación vamos a describir:
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       </div>
+    </p>
+
+    <table class="w3-table-all notranslate">
+        <tbody><tr>
+        <th style="width:15%">Valor</th>
+          <th>Descripción</th>
+        </tr>
+        <tr>
+          <td>button</td>
+          <td>Define un botón clickable </td>
+        </tr>
+        <tr>
+          <td>checkbox</td>
+          <td>Define una caja de verificación</td>
+        </tr>
+        <tr>
+        <td>color</td>
+          <td>Define un selector de color</td>
+        </tr>
+        <tr>
+        <td>date</td>
+          <td>Define un control de fecha (año, mes, día (sin hora))</td>
+        </tr>
+        <tr>
+        <td>datetime-local</td>
+          <td> Define un control de fecha y hora (año, mes, día, hora (sin zona horaria) </td>
+        </tr>
+        <tr>
+        <td>email</td>
+          <td>Define un campo para una dirección de correo electrónico.</td>
+        </tr>
+        <tr>
+          <td>file</td>
+          <td>Define un campo de selección de archivos y un botón "Examinar" (para cargas de archivos).</td>
+        </tr>
+        <tr>
+          <td>hidden</td>
+          <td>Define un campo de entrada oculto.</td>
+        </tr>
+        <tr>
+          <td>image</td>
+          <td>Define una imagen como botón.</td>
+        </tr>
+        <tr>
+        <td>month</td>
+          <td>Define un control de mes y año (sin zona horaria)</td>
+        </tr>
+        <tr>
+        <td>number</td>
+          <td>Define un campo para ingresar un número</td>
+        </tr>
+        <tr>
+          <td>password</td>
+          <td>Define un campo de contraseña</td>
+        </tr>
+        <tr>
+          <td>radio</td>
+          <td>Define un botón de radio</td>
+        </tr>
+        <tr>
+        <td>range</td>
+          <td>Define un control de rango (como un control deslizante) </td>
+        </tr>
+        <tr>
+          <td>reset</td>
+          <td>Define un botón de reinicio</td>
+        </tr>
+        <tr>
+        <td>search</td>
+          <td>Define un campo de texto para ingresar una cadena de búsqueda</td>
+        </tr>
+        <tr>
+          <td>submit</a></td>
+          <td>Define un botón de envío</td>
+        </tr>
+        <tr>
+        <td>tel</td>
+          <td>Define un campo para ingresar un número de teléfono</td>
+        </tr>
+        <tr>
+          <td>text</td>
+          <td>Campo por defecto. Define un campo de texto de una sola línea</td>
+        </tr>
+        <tr>
+        <td>time</td>
+          <td>Define un control para ingresar una hora (sin zona horaria)</td>
+        </tr>
+        <tr>
+        <td>url</td>
+          <td>Define un campo para ingresar una URL</td>
+        </tr>
+        <tr>
+        <td>week</td>
+          <td>Define un control de semana y año (sin zona horaria)</td>
+        </tr>
+       </tbody></table>
+</div>
+
+  <h2>Datos CSS</h2>
+  Los tipos de datos básicos de CSS definen los valores típicos (incluidas las palabras clave y las unidades) aceptados por las propiedades 
+  y funciones de CSS. Son un tipo especial de valor de componente.En sintaxis formal, los tipos de datos se denotan con una palabra clave 
+  colocada entre los signos de desigualdad;
+  <div>
+     <p> 
+        Elementos modificables con CSS
+        O mejor dicho, atributos de elementos que pueden modificarse con CSS. Son muchos (casi todos) los aspectos que pueden modificarse con CSS. Dado el carácter general de esta guía, aquí veremos solamente los más utilizados.
+        Generalmente se actúa sobre los siguientes:
+        
+        Texto o contenido
+        Tamaño del bloque
+        Color del fondo del bloque
+        Bordes de bloque
+        Estilo de los bordes
+        Color de los bordes
+        Márgenes de bloque
+        Espaciado interno del bloque
+        Posicionamiento del bloque
+        Gráficos y bloques flotantes
+        Visibilidad del bloque
+        Listas
+        Enlaces
+        CSS + JavaScript
+        Efectos especiales
+        Tablas
+     </p>
+     <p>
+         
+        <table>
+            <thead>
+                <tr>
+                    <th>Propiedad</th>
+                    <th>Descripción</th>
+                    <th>Valores</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>padding-top</code> <code>padding-right</code> <code>padding-bottom</code> <code>padding-left</code></td>
+                    <td>Tamaño del relleno superior, derecho, inferior e izquierdo</td>
+                    <td>longitud | porcentaje</td>
+                </tr>
+                        <tr>
+                    <td><code>padding</code></td>
+                    <td>Tamaño del relleno</td>
+                    <td>longitud | porcentaje {1,4}</td>
+                </tr>
+        <tr>
+                    <td><code>margin-top</code> <code>margin-right</code> <code>margin-bottom</code> <code>margin-left</code></td>
+                    <td>Tamaño del margen superior, derecho, inferior e izquierdo</td>
+                    <td>longitud | porcentaje | auto</td>
+                </tr>
+                        <tr>
+                    <td><code>margin</code></td>
+                    <td>Ancho de los margenes</td>
+                    <td>longitud | porcentaje | auto {1,4}</td>
+                </tr>
+        <tr>
+                    <td><code>border-top-width</code>
+        <code>border-right-width</code>
+        <code>border-bottom-width</code>
+        <code>border-left-width</code></td>
+                    <td>Anchura del borde superior, derecho, inferior o izquierdo</td>
+                    <td>thin | medium | thick | longitud</td>
+                </tr>
+        <tr>
+                    <td><code>border-width</code></td>
+                    <td>Anchura del borde (reducida)</td>
+                    <td>thin | medium | thick | longitud {1,4}</td>
+                </tr>
+        <tr>
+                    <td><code>border-top-color
+        border-right-color</code>
+        <code>border-bottom-color</code>
+        <code>border-left-color</code></td>
+                    <td>Color del borde superior, derecho, inferior e izquierdo</td>
+                    <td>color | transparent</td>
+                </tr>
+        <tr>
+                    <td><code>border-color</code></td>
+                    <td>Color del borde (reducida)</td>
+                    <td>color | transparent {1,4}</td>
+                </tr>
+        <tr>
+                    <td><code>border-top-style
+        border-right-style</code>
+        <code>border-bottom-style</code>
+        <code>border-left-style</code></td>
+                    <td>Estilo del borde superior, derecho, inferior e izquierdo</td>
+                    <td>none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset</td>
+                </tr>
+        <tr>
+                    <td><code>border-style</code></td>
+                    <td>Estilo del borde (reducida)</td>
+                    <td>none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset {1,4}</td>
+                </tr>
+        <tr>
+                    <td><code>border-top</code>
+        <code>border-right</code>
+        <code>border-bottom</code>
+        <code>border-left</code></td>
+                    <td>Ancho, estilo y color para el borde superior, derecho, inferior e izquierdo</td>
+                    <td>border-top-width | border-top-style | border-top-color</td>
+                </tr>
+        <tr>
+                    <td><code>border</code></td>
+                    <td>Ancho, estilo y color para los bordes (reducida)</td>
+                    <td>border-width | border-style | border-color</td>
+                </tr>
+        <tr>
+                    <td><code>border-radius</code></td>
+                    <td>Curvatura del borde</td>
+                    <td>longitud | porcentaje {1,4}</td>
+                </tr>
+         
+                <tr>
+                    <td><code><b>caption-side</b></code></td>
+                    <td>Posición del título respecto la tabla</td>
+                    <td>top | bottom</td>
+                </tr>
+                        <tr>
+                    <td><code><b>table-layout</b></code></td>
+                    <td>Formato de las celdas, filas y columnas</td>
+                    <td>auto | fixed</td>
+                </tr>
+                        <tr>
+                    <td><code><b>border-collapse</b></code></td>
+                    <td>Selección del modelo de los bordes</td>
+                    <td>collapse | separate</td>
+                </tr>
+                        <tr>
+                    <td><code><b>border-spacing</b></code></td>
+                    <td>Espaciado entre los bordes de celdas adyacentes</td>
+                    <td>longitud</td>
+                </tr>
+                        <tr>
+                    <td><code><b>empty-cells</b></code></td>
+                    <td>Visibilidad de los bordes de celdas sin contenido</td>
+                    <td>show | hide</td>
+                </tr>
+                <tr>
+                  <td><code><b>color</b></code></td>
+                  <td>Color del texto</td>
+                  <td>RGB | HSL | HEX | nombre del color | RGBA | HSLA </td>
+              </tr>
+                      <tr>
+                  <td><code><b>background-color</b></code></td>
+                  <td>Color de fondo</td>
+                  <td>RGB | HSL | HEX | nombre del color | RGBA | HSLA</td>
+              </tr>
+                      <tr>
+                  <td><code><b>background-image</b></code></td>
+                  <td>Imagen de fondo</td>
+                  <td>url(…) | none</td>
+              </tr>
+                      <tr>
+                  <td><code><b>background-repeat</b></code></td>
+                  <td>Repetición de la imagen de fondo</td>
+                  <td>repeat | repeat-x | repeat-y | no-repeat</td>
+              </tr>
+                      <tr>
+                  <td><code><b>background-attachment</b></code></td>
+                  <td>Desplazamiento de la imagen de fondo</td>
+                  <td>scroll | fixed</td>
+              </tr>
+                      <tr>
+                  <td><code><b>background-position</b></code></td>
+                  <td>Posición de la imagen de fondo</td>
+                  <td>percentage | length | left | center | right</td>
+              </tr>
+       <tr>
+                  <td><code><b>background-size</b></code></td>
+                  <td>Tamaño de la imagen de fondo</td>
+                  <td>valor</td>
+              </tr>
+                      <tr>
+                  <td><code><b>Opacity</b></code></td>
+                  <td>Transparencia de un elemento</td>
+                  <td>[ 0 – 1 ] (0 → totalmente transparente)</td>
+              </tr>
+           
+        
+            <tr>
+                <td><code><b>color</b></code></td>
+                <td>Color del texto</td>
+                <td>RGB | HSL | HEX | nombre del color | RGBA | HSLA </td>
+            </tr>
+                    <tr>
+                <td><code><b>background-color</b></code></td>
+                <td>Color de fondo</td>
+                <td>RGB | HSL | HEX | nombre del color | RGBA | HSLA</td>
+            </tr>
+                    <tr>
+                <td><code><b>background-image</b></code></td>
+                <td>Imagen de fondo</td>
+                <td>url(…) | none</td>
+            </tr>
+                    <tr>
+                <td><code><b>background-repeat</b></code></td>
+                <td>Repetición de la imagen de fondo</td>
+                <td>repeat | repeat-x | repeat-y | no-repeat</td>
+            </tr>
+                    <tr>
+                <td><code><b>background-attachment</b></code></td>
+                <td>Desplazamiento de la imagen de fondo</td>
+                <td>scroll | fixed</td>
+            </tr>
+                    <tr>
+                <td><code><b>background-position</b></code></td>
+                <td>Posición de la imagen de fondo</td>
+                <td>percentage | length | left | center | right</td>
+            </tr>
+     <tr>
+                <td><code><b>background-size</b></code></td>
+                <td>Tamaño de la imagen de fondo</td>
+                <td>valor</td>
+            </tr>
+                    <tr>
+                <td><code><b>Opacity</b></code></td>
+                <td>Transparencia de un elemento</td>
+                <td>[ 0 – 1 ] (0 → totalmente transparente)</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+        
+
+
+          
+     </p>
+     
+  </div>
+
+  
+  
+</body>
+</html>
